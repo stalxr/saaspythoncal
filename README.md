@@ -1,20 +1,4 @@
-# Python Tasks Project
 
-Проект с реализацией 7 различных задач на Python.
-
-## Структура проекта
-
-```
-project/
-├── task1_calculator/       - Калькулятор
-├── task2_triangle_area/    - Площадь треугольника
-├── task3_cylinder_volume/  - Объём цилиндра
-├── task4_text_quest/       - Текстовый квест
-├── task5_todo_list/        - Список задач
-├── task6_budget_calculator/ - Калькулятор бюджета
-├── task7_system_info/      - Информация о системе
-└── main.py                 - Главный файл запуска
-```
 
 ## Запуск
 
@@ -22,10 +6,7 @@ project/
 python main.py
 ```
 
-## Требования
 
-- Python 3.8+
-- Только стандартная библиотека
 
 ## Задачи
 
