@@ -8,6 +8,8 @@ import task7_system_info
 import task8_system_monitor
 import task9_weather_parser
 import task10_html_parser
+import task11_backup_system
+import task12_file_cleaner
 
 def main():
     print("=" * 50)
@@ -26,6 +28,8 @@ def main():
         print("8. Системный монитор")
         print("9. Парсер погоды")
         print("10. HTML парсер")
+        print("11. Резервное копирование")
+        print("12. Очистка файлов")
         print("0. Выход")
         
         выбор = input("\nВведите номер задачи: ").strip()
@@ -50,12 +54,16 @@ def main():
             task9_weather_parser.run()
         elif выбор == "10":
             task10_html_parser.run()
+        elif выбор == "11":
+            task11_backup_system.run()
+        elif выбор == "12":
+            task12_file_cleaner.run()
         elif выбор == "0":
             print("\nСпасибо за использование программы!")
             print("До свидания!")
             break
         else:
-            print("\nНеверный выбор! Пожалуйста, выберите число от 0 до 10.")
+            print("\nНеверный выбор! Пожалуйста, выберите число от 0 до 12.")
 
 if __name__ == "__main__":
     main()
