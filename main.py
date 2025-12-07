@@ -6,6 +6,7 @@ import task5_todo_list
 import task6_budget_calculator
 import task7_system_info
 import task8_system_monitor
+import task9_weather_parser
 
 def main():
     print("=" * 50)
@@ -22,6 +23,7 @@ def main():
         print("6. Калькулятор бюджета")
         print("7. Информация о системе")
         print("8. Системный монитор")
+        print("9. Парсер погоды")
         print("0. Выход")
         
         выбор = input("\nВведите номер задачи: ").strip()
@@ -42,12 +44,14 @@ def main():
             task7_system_info.run()
         elif выбор == "8":
             task8_system_monitor.run()
+        elif выбор == "9":
+            task9_weather_parser.run()
         elif выбор == "0":
             print("\nСпасибо за использование программы!")
             print("До свидания!")
             break
         else:
-            print("\nНеверный выбор! Пожалуйста, выберите число от 0 до 8.")
+            print("\nНеверный выбор! Пожалуйста, выберите число от 0 до 9.")
 
 if __name__ == "__main__":
     main()
